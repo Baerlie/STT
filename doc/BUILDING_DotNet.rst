@@ -49,6 +49,7 @@ We need to clone ``coqui-ai/STT``.
 .. code-block:: bash
 
    git clone https://github.com/coqui-ai/STT
+   cd STT
    git submodule sync tensorflow/
    git submodule update --init tensorflow/
 
